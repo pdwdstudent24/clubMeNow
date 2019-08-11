@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ClubMeNow:Lite - Club Distance Entry Form</title>
+	<link rel="icon" href="clubMeNow300x300.png" type="image/png" />
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js'></script>
+	<style>
+		label { font-size: 200% }
+		.tapEntry { width: 50px; }
+	</style>
+</head>
+
+<body>
+<div class='container'>
+
+	<h1>Are you sure?</h1>
+	<p>Do you really want to reset all club distances?</p>
+	<button class='btn' onclick='cancelClub();'>Cancel</button> 
+	<button class='btn' onclick='cancelClub();'>Reset</button> 
+	<br>
+	<footer>Copyright &copy;2019 George Corser</footer>
+</div>
+
+<script>
+
+	// ----- Notes -----
+	// none
+
+	// ----- Functions -----
+	
+	// return to list screen
+	function cancelClub() {
+		window.location.href = "clubList.html"; 
+	}
+</script>
+</body>
+</html>
